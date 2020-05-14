@@ -12,6 +12,9 @@
     "url": "http://github.com/pfangtoworld/npmdemo/issues"
   },
   "main": "a.js",
+  "bin": {
+    "pfang-tools": "./bin/pfang-tools"
+  },
   "scripts": {
     "pubgit": "git push origin",
     "pubnpm": "npm publish --access public",
