@@ -1,0 +1,23 @@
+{
+  "name": "@pfang/npmdemo",
+  "version": "1.0.1",
+  "description": "npm demo",
+  "keywords": [ "pfang", "tools","demo"],
+  "homepage": "https://github.com/pfangtoworld/npmdemo",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pfangtoworld/npmdemo.git"
+  },
+  "bugs": {
+    "url": "http://github.com/pfangtoworld/npmdemo/issues"
+  },
+  "main": "a.js",
+  "scripts": {
+    "pubgit": "git push origin",
+    "pubnpm": "npm publish --access public",
+    "pub": "git push origin && npm publish --access public",
+    "test": "jest && npm run lint"
+  },
+  "author": "pfangtoworld",
+  "license": "ISC"
+}
